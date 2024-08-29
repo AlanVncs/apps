@@ -8,7 +8,7 @@
 
 import initSwc, {
   transform,
-} from "https://cdn.jsdelivr.net/npm/@swc/wasm-web@1.5.25/wasm-web.js";
+} from "https://cdn.jsdelivr.net/npm/@swc/wasm-web@1.7.21/wasm-web.js";
 import { LRU } from "./lru.ts";
 
 const swcPromise = initSwc(
